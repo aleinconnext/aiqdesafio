@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/19 23:00:13.000.840,=C:\Users\Alessandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/19 23:27:26.000.371,=C:\Users\Alessandro\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/05/19 23:37:56.000.750,C:\Alessandro\delphi\desafio\UFrmPrincipal.pas=C:\Users\Alessandro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/19 23:37:56.000.750,C:\Alessandro\delphi\desafio\UFrmPrincipal.fmx=C:\Users\Alessandro\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/05/19 23:38:36.000.560,C:\Alessandro\delphi\desafio\UDmDados.pas=C:\Users\Alessandro\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/05/19 23:38:36.000.560,C:\Alessandro\delphi\desafio\UDmDados.dfm=C:\Users\Alessandro\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2022/05/19 23:38:51.000.516,C:\Alessandro\delphi\desafio\AiqDesafio.dproj=C:\Users\Alessandro\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/05/21 12:07:16.787,=C:\Alessandro\delphi\desafio\Unit1.pas</Transaction>
+    <Transaction>2022/05/21 12:07:38.972,C:\Alessandro\delphi\desafio\Loading.pas=C:\Alessandro\delphi\desafio\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

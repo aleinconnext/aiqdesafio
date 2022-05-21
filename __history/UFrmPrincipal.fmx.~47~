@@ -1,0 +1,99 @@
+object FrmPokedex: TFrmPokedex
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = 'FPokemonsList'
+  ClientHeight = 481
+  ClientWidth = 312
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TDynamicAppearance'
+    ItemEditAppearanceClassName = 'TDynamicAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    ItemSpaces.Left = 0.000000000000000000
+    ItemSpaces.Right = 0.000000000000000000
+    Align = Client
+    Size.Width = 312.000000000000000000
+    Size.Height = 424.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ItemAppearance.ItemHeight = 110
+    ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'Text1'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00060000000000000004000000}
+        Appearance.TextAlign = Leading
+        Appearance.Width = 209.000000000000000000
+        Appearance.Height = 21.000000000000000000
+        Appearance.PlaceOffset.X = 95.000000000000000000
+        Appearance.PlaceOffset.Y = 5.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'Image2'
+        AppearanceClassName = 'TImageObjectAppearance'
+        Appearance.Width = 86.000000000000000000
+        Appearance.Height = 89.000000000000000000
+        Appearance.PlaceOffset.X = 5.000000000000000000
+        Appearance.PlaceOffset.Y = 11.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'Text3'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.TextAlign = Leading
+        Appearance.Width = 81.000000000000000000
+        Appearance.Height = 21.000000000000000000
+        Appearance.PlaceOffset.X = 96.000000000000000000
+        Appearance.PlaceOffset.Y = 28.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'Text4'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.TextAlign = Leading
+        Appearance.TextVertAlign = Leading
+        Appearance.WordWrap = True
+        Appearance.Width = 209.000000000000000000
+        Appearance.Height = 53.000000000000000000
+        Appearance.PlaceOffset.X = 95.000000000000000000
+        Appearance.PlaceOffset.Y = 51.000000000000000000
+      end>
+    ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'Text1'
+        AppearanceClassName = 'TTextObjectAppearance'
+      end>
+    PullToRefresh = True
+    PullRefreshWait = True
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 312.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object SpeedButton1: TSpeedButton
+      Align = Right
+      Position.X = 260.000000000000000000
+      Size.Width = 52.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'refreshtoolbutton'
+      OnClick = SpeedButton1Click
+    end
+  end
+  object Label1: TLabel
+    Align = Bottom
+    StyledSettings = [Family, Size, Style]
+    Position.Y = 464.000000000000000000
+    Size.Width = 312.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.FontColor = xFF4C4C4C
+    TextSettings.HorzAlign = Center
+    TabOrder = 3
+  end
+end
